@@ -1,0 +1,59 @@
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form{
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+    
+}
+
+h1{
+    color: rgb(148, 0, 148);
+}
+
+h2{
+    color: rgb(255, 35, 35);
+}
+
+button{
+    width: 40%;
+    height: 10%;
+    padding: 1%;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+
+.form-body div{
+    margin-top: 20px;
+    margin-bottom: 1px;
+    align-self: center;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    border-radius: 14px;
+    
+}
+.input{
+    border-radius: 15px;
+    text-align: center;
+    border-color: rgb(255, 91, 255);
+}
+
+
